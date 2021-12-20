@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.116.1/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.116.1/examples/js/loaders/GLTFLoader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@pixiv/three-vrm@0.3.5/lib/three-vrm.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/facemesh"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.6.3/css/all.min.css">
+<p><button onclick="start()">start</button></p>
+<style>@media screen and (min-width: 644px) {.oneline {width: 966px;}}</style>
+<div class="oneline">
+<video id='input' width="320" height="240" autoplay muted playsinline style="border:solid 1px black;box-sizing:content-box;display:inline-block;"></video><span id="vrm_parent" style="border:solid 1px black;width:320px;height:240px;overflow:hidden;box-sizing:content-box; display:inline-block;"></span><span style="position:relative;display:inline-block;"><canvas id='output' width="320" height="240" style="border:solid 1px black;box-sizing:content-box;"></canvas><span id='loadingicon' class="fa fa-spinner fa-spin" style="position:absolute;font-size:100px;top:70px;left: 110px;display:none;"></span>
+</span>
+</div>
+
+  <script  src="script.js"></script>
+
+</body>
+</html>
