@@ -10,9 +10,9 @@ Use it as you want
   
 ## Used technologies
 
-**Client:** CSS. JS BootStrapt, VueJS
+**Client:** JS
 
-**Server:** VueJS Firebase - Realtime Database
+**Server:** JS
 
 ## Making
 - Ease of Use.
